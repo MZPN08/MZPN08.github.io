@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LIFE 165</title>
+<link rel="stylesheet" href="Inicio.css">
+</head>
+<body>
+    <header>
+        <h1>LIFE 165</h1>
+    </header>
+    <nav>
+        <h1>LIFE 165</h1>
+        <ul>
+            <li><a href="/Users/salsademazapan/Desktop/Julia/Alan/Revista.html">Música</a></li>
+            <li><a href="/Users/salsademazapan/Desktop/Julia/Luis/Luis.html">Deportes</a></li>
+            <li><a href="/Users/salsademazapan/Desktop/Julia/Hanna/Hanna.html">Moda</a></li>
+            <li><a href="#pie">Contacto</a></li>        
+        </ul>
+    </nav>
+    <table class="custom-table">
+    <tr>
+        <td>
+            <div class="cell-content">
+                <img src="/Users/salsademazapan/Desktop/Julia/Alan/Recursos_Alan/Nsqk3.jpeg" alt="imagen1">
+                <p>Rodrigo se adentró en la música a los 13 años, cuando los sonidos de Skrillex, Swedish House Mafia, Avicii, Deadmau5 y Zedd se sumaron al auge de la música electrónica, pero más allá de un gusto por el género, despertó su interés por descubrir los procesos detrás de las canciones.</p>
+            </div>
+        </td>
+        <td>
+            <div class="cell-content">
+                <img id="img1" src="/Users/salsademazapan/Desktop/Julia/Hanna/Recursos_Hanna/Hanna1.jpeg" alt="imagen1"> 
+                <p>La Gala del Met o la Costume Institute Gala es un evento benéfico que da inicio a la exposición de moda anual del Instituto del Vestido del Museo Metropolitano de Arte de la ciudad de Nueva York. Los fondos recaudados en la gala constituyen todo el presupuesto anual de Instituto del Vestido.</p>
+            </div>
+        </td>
+        <td>
+            <div class="cell-content">
+                <img src="/Users/salsademazapan/Desktop/Julia/Luis/Recursos_Luis/Luis1.jpeg" alt="imagen1">
+                <p>La natación puede realizarse utilizando una amplia gama de estilos, conocida como "strokes" (estilos), y estos movimientos se utilizan para diversos propósitos, o para distinguir entre las clases de natación competitiva. Hay cuatro movimientos principales que son utilizados en competiciones de natación y en actividades de recreación de natación: el clawl  (estilo libre, el estilo pecho , el estilo espalda(dorso) y el estilo mariposa.</p>
+            </div>
+        </td>
+    </tr>
+</table>
+        <section id="Green">
+        <table id="text2">
+            <tr>
+                <td>
+                     <h1>Autor de la sección de música:</h1>
+                     <p>Alan Antonio García Ruíz, Productor Musical:</p>
+                     <p>Correo electrónico: alanantonio2302@gmail.com</p>
+                     <p>Instagram: @mzpn.wav</p>
+                </td>
+                <td>
+                    <h1>Autor de la sección de deporte:</h1>
+                     <p>Luis Antonio Bielma Rivas, Nadador:</p>
+                     <p>Correo: guicho2424@gmail.com</p>
+                     <p>Instagram: @bielma_luis</p>
+                </td>
+                <td>
+                    <h1>Autor de la sección de moda:</h1>
+                     <p>Hanna Joaly Hernandez De Gante:</p>
+                     <p>Correo: hannamonterodegante@gmail.com</p>
+                     <p>Instagram: de_gante_hanna</p>
+                </td>
+            </tr>
+        </table>
+        </section>
+    <script>
+        // JavaScript para mostrar/ocultar la barra de navegación al hacer scroll
+        let lastScrollTop = 0;
+        window.addEventListener("scroll", function() {
+            let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+            if (currentScroll > lastScrollTop) {
+                // Scroll hacia abajo
+                document.querySelector("nav").classList.remove("show");
+            } else {
+                // Scroll hacia arriba
+                document.querySelector("nav").classList.add("show");
+            }
+            lastScrollTop = currentScroll;
+        });
+    </script>
+
+</body>
+</html>

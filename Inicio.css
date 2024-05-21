@@ -1,0 +1,112 @@
+body {
+    font-family: sans-serif;
+    padding: 0;
+    background-image: url("/Users/salsademazapan/Desktop/Julia/Recursos/Fondo.jpeg");
+}
+
+header{
+    font-family: serif;
+    font-size: 60px;
+    margin-top: 200px; /* Espacio para la barra de navegación */
+    text-align: center;
+}
+nav h1{
+    float: left;
+    margin-top: 35px;
+    font-size: 40px;
+    font-family: monospace;
+}
+#Green{
+    align-self: center;
+}
+#text2{
+    text-align: justify;
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+    background-image: url("/Users/salsademazapan/Desktop/Julia/Recursos/Green.jpeg");
+    width: 100%;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.custom-table td {
+    width: 33.33%;
+    height: 200px; /* Ajusta el tamaño de la celda según sea necesario */
+
+    padding: 0;
+    text-align: justify;
+    vertical-align: top;
+}
+
+.cell-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-content img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Asegura que la imagen ocupe todo el espacio de la celda */
+}
+
+.cell-content p {
+    margin: 10px 0 0 0;
+}
+
+nav {
+    background-image: url("/Users/salsademazapan/Desktop/Julia/Recursos/Header2.jpeg");
+    color: #fff; /* Texto en blanco */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: -120px; /* Esconde la barra de navegación */
+    transition: top 0.3s;
+}
+
+nav.show {
+    top: 0; /* Muestra la barra de navegación */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 1.8;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Enlaces en blanco */
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #B46F52; /* Azul más oscuro al pasar el mouse */
+}
+.container {
+    margin-top: 120px; /* Espacio para la barra de navegación */
+    padding: 20px;
+}
+
+footer{
+    font-size: 20px;
+    text-align: center;
+}
+
